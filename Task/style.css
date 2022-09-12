@@ -1,0 +1,27 @@
+body {
+    background-color: aquamarine;
+}
+
+.row {
+    display: flex;
+    margin-top: 50px;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+.text-area {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.row img {
+    width: 70px;
+    height: 70px;
+    padding: 0 45px;
+}
+figcaption {
+    padding-top: 8px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+}
